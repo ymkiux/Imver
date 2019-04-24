@@ -20,6 +20,17 @@ Add it in your root build.gradle at the end of repositories:
 	}
 #### 具体使用
 
-Step 1.Add for the parent node in the required layout:
+Add for the parent node in the required layout.
 
+	<zn.cososk.immerseview</br>
+  		android:id="@+id/title_bar"</br>
+      	android:layout_width="match_parent"</br>
+  		android:layout_height="wrap_content"</br>
+      	app:title="默认的标题栏" />
 
+Assignment of state for instantiation of required activities.
+
+	final Imver titleBar = (Imver) findViewById(R.id.title_bar);
+	titleBar.setBackgroundColor(Color.parseColor("#ffc9cd"));
+	titleBar.setLeftText("返回");
+	titleBar.setLeftTextColor(Color.WHITE);
