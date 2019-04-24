@@ -19,8 +19,5 @@ Add it in your root build.gradle at the end of repositories:
 	        implementation 'com.github.ymkiux:Imver:Version'
 	}
 #### 具体使用
+
 Step 1.Add for the parent node in the required layout:
- <zn.cososk.immerseview
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:title="默认的标题栏" />
