@@ -28,7 +28,7 @@ Add for the parent node in the required layout.
   		android:layout_height="wrap_content"</br>
       	app:title="默认的标题栏" />
 
-Assignment of state for instantiation of required activities.
+Binding control state assignment.
 
 	final Imver titleBar = (Imver) findViewById(R.id.title_bar);
 	titleBar.setBackgroundColor(Color.parseColor("#ffc9cd"));
